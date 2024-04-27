@@ -5,6 +5,8 @@ const config: Config.InitialOptions = {
   verbose: true,
   transform: {
   '^.+\\.tsx?$': 'ts-jest',
-  }
+  },
+  collectCoverage: true,
+  coverageReporters: ['json', 'lcov', 'text', 'clover'],
 };
 export default config;
