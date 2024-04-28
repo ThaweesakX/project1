@@ -1,3 +1,1 @@
-export const sayHi = () => {
-    return "Hello world!";
-}
+const sayHi = () => 'test1  ';
