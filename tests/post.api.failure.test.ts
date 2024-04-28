@@ -16,7 +16,7 @@ test('POST /posts :: Create a new post with error = 500', async () => {
 
   jest.mock('../src/client', () => ({
     __esModule: true, // this property makes it work
-    default: {
+    default: { 
       $connect: jest.fn(),
       post: {
         findMany: jest.fn().mockImplementation(() => {

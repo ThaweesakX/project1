@@ -13,4 +13,9 @@ app.get('/', (req, res) => {
   });
 });
 
+app.all('*', (req, res) => {
+  res.status(404).json({ error: `Route ${req.originalUrl} not found` });
+});
+
+
 export default app;
