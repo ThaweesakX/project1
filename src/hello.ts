@@ -1,1 +1,1 @@
-const sayHi = () => 'test1  ';
+const sayHi = () => 'test1';
