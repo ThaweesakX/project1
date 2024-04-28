@@ -1,1 +1,3 @@
-const sayHi = () => 'test1';
+export const sayHi = () => {
+    return "Hello world!";
+}
